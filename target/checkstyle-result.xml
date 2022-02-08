@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="8.29">
-<file name="C:\integration-testing\src\main\java\com\checkstyle\checkstyle\CheckstyleApplication.java">
+<file name="/home/runner/work/integration-testing/integration-testing/src/main/java/com/checkstyle/checkstyle/CheckstyleApplication.java">
 <error line="1" severity="error" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
 <error line="6" column="1" severity="error" message="Utility classes should not have a public or default constructor." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
 <error line="9" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="9" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
 <error line="9" column="33" severity="error" message="Parameter args should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
 </file>
-<file name="C:\integration-testing\src\main\java\com\checkstyle\checkstyle\controller\HellowWorldController.java">
+<file name="/home/runner/work/integration-testing/integration-testing/src/main/java/com/checkstyle/checkstyle/controller/HellowWorldController.java">
 <error line="1" severity="error" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
 <error line="3" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - org.springframework.web.bind.annotation.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
 <error line="7" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
@@ -15,6 +15,6 @@
 <error line="8" column="9" severity="error" message="Class &apos;HellowWorldController&apos; looks like designed for extension (can be subclassed), but the method &apos;greet&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;HellowWorldController&apos; final or making the method &apos;greet&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
 <error line="8" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
 </file>
-<file name="C:\integration-testing\src\main\resources\application.properties">
+<file name="/home/runner/work/integration-testing/integration-testing/src/main/resources/application.properties">
 </file>
 </checkstyle>
